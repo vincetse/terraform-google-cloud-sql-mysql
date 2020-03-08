@@ -45,7 +45,7 @@ variable "authorized_networks" {
 }
 
 variable "enable_ha" {
-  type = bool
+  type        = bool
   description = "Enable high availability with regional deployment"
-  default = false
+  default     = false
 }
